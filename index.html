@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/boot/bootstrap3.0.min.css">
+        <link rel="stylesheet" href="css/boot/bootstrap-table.min.css">
+        <title>Title</title>
+    </head>
+    <body>
+            <form onsubmit="return false" onsubmit="return false" class="form-inline clear-fix" >
+                <div class="panel-body titlePadding">
+                    <form class="form-inline clear-fix" >
+                        <div class="form-group">
+                            <select class="form-control " name="province" id="province">
+                                <option value="">请选择</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control " name="province" id="city">
+                                <option value="">请选择</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control " name="province" id="district">
+                                <option value="">请选择</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control " name="cpump" id="cpump">
+                                <option value="">请选择</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <span style="vertical-align: middle">开始时间：</span>
+                            <input type="text" class="form-control ly_date" id="fstartTime" name="fstartTime" readonly/>
+                        </div>
+                        <div class="form-group">
+                            <span style="vertical-align: middle">结束时间：</span>
+                            <input type="text" class="form-control ly_date" id="fendTime" name="fendTime" readonly/>
+                        </div>
+                        <button style="vertical-align: middle;" class="btn btn-warning d_search">查询</button>
+                    </form>
+                </div>
+            </form>
+            <table class='data-table table table-bordered table-striped table-hover text-center' cellspacing="0" width="100%" id="table_01">
+            </table>
+            </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/boot/bootstrap-table.js"></script>
+        <script src="js/boot/bootstrap-table-zh-CN.min.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
